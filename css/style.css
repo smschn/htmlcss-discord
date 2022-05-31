@@ -185,7 +185,7 @@
 /* Start of section-3 */
 .section-3 {
     background-color: #f6f6f6;
-    height: 850px;
+    height: 880px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,14 +219,14 @@
 
 .s3-c.wallpaper-h2 {
     background-image: url("../img/stars.svg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 40px;
-    margin: 1% auto;
-    width: 45%;
+    height: 47px;
+    margin: auto;
+    width: 50%;
 }
 
-.s3-c > h2 {
+.s3-content > h2 {
     text-align: center;
 }
 
