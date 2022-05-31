@@ -220,9 +220,10 @@
 .s3-c.wallpaper-h2 {
     background-image: url("../img/stars.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     height: 40px;
     margin: 1% auto;
-    width: 50%;
+    width: 45%;
 }
 
 .s3-c > h2 {
