@@ -114,8 +114,6 @@
 .s1-c-left {
     height: 100%;
     width: calc(100% / 3 * 2);
-    display: flex;
-    justify-content: center;
 }
 
 .s1-c-left.wallpaper-1a {
@@ -123,17 +121,16 @@
     background-image: url("../img/item1.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    text-align: center;
 }
 
 .s1-c-right {
     width: calc(100% / 3);
+    margin-left: -5%;
 }
 
 .s1-c-right > h1 {
-    width: 80%;
     margin: 10% 0px;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .s1-c-right > p {
@@ -147,7 +144,6 @@
     background-image: url("../img/item3.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    text-align: center;
 }
 /* End of section-1 # 2*/
 
@@ -187,7 +183,7 @@
 .s2-c-right > h1 {
     width: 80%;
     margin: 10% 0px;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .s2-c-right > p {
@@ -210,7 +206,7 @@
 }
 
 .s3-content > h1 {
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
     margin: 20px 0px;
 }
