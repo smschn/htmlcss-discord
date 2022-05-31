@@ -31,7 +31,7 @@
     width: calc(100% / 6);
 }
 
-.header-logo-img { /* sistemare grandezza img */
+.header-logo-img {
     height: 100%;
 }
 
@@ -88,7 +88,7 @@
     padding: 15px;
 }
 
-.h-down-btn.left { /* Inserire freccia da awesome font */
+.h-down-btn.left {
     margin-right: 15px;
 }
 
@@ -330,7 +330,7 @@ li {
 }
 /* End of footer-up section */
 
-/* Start of hr */
+/* Start of f-hr */
 .f-hr-background {
     background-color: #23272a;
 }
@@ -340,7 +340,7 @@ li {
     width: 80%;
     margin: auto;
 }
-/* End of hr */
+/* End of f-hr */
 
 /* Start of footer-down section */
 .container-footer-down {
