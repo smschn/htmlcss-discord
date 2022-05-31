@@ -117,7 +117,7 @@
 }
 
 .s1-c-left.wallpaper-1a {
-    width: 100%;
+    width: 80%;
     background-image: url("../img/item1.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -126,15 +126,6 @@
 .s1-c-right {
     width: calc(100% / 3);
     margin-left: -5%;
-}
-
-.s1-c-right > h1 {
-    margin: 10% 0px;
-    font-size: 36px;
-}
-
-.s1-c-right > p {
-    line-height: 25px;
 }
 /* End of section-1 */
 
@@ -159,7 +150,6 @@
     height: 400px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -179,17 +169,18 @@
 .s2-c-right {
     width: calc(100% / 3);
 }
+/* End of section-2 */
 
-.s2-c-right > h1 {
-    width: 80%;
+/* Start of general rules for <h1>, <p> in section-1 and section-2 */
+.s1-c-right > h1, .s2-c-right > h1 {
     margin: 10% 0px;
     font-size: 36px;
 }
 
-.s2-c-right > p {
+.s1-c-right > p, .s2-c-right > p {
     line-height: 25px;
 }
-/* End of section-2 */
+/* End of general rules for <h1>, <p> in section-1 and section-2 */
 
 /* Start of section-3 */
 .section-3 {
