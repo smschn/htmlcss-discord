@@ -185,7 +185,7 @@
 /* Start of section-3 */
 .section-3 {
     background-color: #f6f6f6;
-    height: 880px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,10 +211,11 @@
 
 .s3-c.wallpaper-3 {
     background-image: url("../img/item4-big.svg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    margin: 0px 10%;
+    height: 600px;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 .s3-c.wallpaper-h2 {
@@ -245,9 +246,6 @@
 .container-footer-up {
     height: 400px;
     background-color: #23272a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 30px;
 }
 
@@ -346,7 +344,8 @@ li {
 .f-btn {
     background-color: #7289da;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
+    font-size: small;
 }
 /* End of footer-down section */
 /* End of footer section */
